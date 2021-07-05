@@ -66,3 +66,174 @@ button:focus,
 input:focus {
   border: 0;
 }
+
+/* Header */
+
+#header-top{
+  height: 120px;
+}
+
+#info{
+  background-color: var(--title);
+  color: var(--white);
+  font-family: Mont-M;
+
+  height: 60px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title{
+  font-family: Mont-B;
+  font-size: 2.5rem;
+
+  background: var(--bgSite);
+  color: var(--title);
+
+  height: 60px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main */
+
+#apresentacao{
+  width: 100%;
+  height: 378px;
+  color: var(--white);
+
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/wallpaper.jpeg) no-repeat;
+  background-position: 0px;
+  background-size:cover;
+
+  display: flex;
+
+  align-items: center;
+}
+
+#textos-ap{
+
+  padding-left: 100px;
+}
+
+#textos-ap h1{
+  font-family: Mont-B;
+  padding: 10px 0;
+}
+#textos-ap p{
+  font-family: Mont-M;
+  line-height: 32px;
+  letter-spacing: 1px;
+
+  padding: 10px 0;
+}
+
+#destaques{
+  background: var(--bgSite);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+#textos-ds{
+  margin: 40px 0;
+}
+
+#textos-ds h2{
+  color: var(--title);
+  font-family: Mont-B;
+
+  text-align: center;
+  padding: 12px 0;
+}
+#textos-ds p{
+  color: var(--title);
+  font-family: Mont-SB;
+  text-align: center;
+}
+
+#tenis{
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#tenis div{
+  width:300px;
+  max-width: 450px;
+  height:250px;
+
+  margin: 10px auto;
+
+  background-color: var(--bgCard);
+
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#tenis img{
+  display: block;
+  width: 250;
+  height: 150;
+}
+
+/* Footer */
+
+#footer h3{
+  color: var(--white);
+  background-color: var(--title);
+  font-family: Mont-SB;
+  text-align: center;
+  line-height: 55px;
+}
+
+@media screen and (min-width: 320px){
+
+  #textos-ap{
+    width: 100%;
+    padding-left: 0;
+    margin: 0 5px;
+  }
+
+  #tenis{
+    background-color: var(--bgSite);
+  }
+
+  #tenis div{
+    width: 80%;
+    background-color: var(--bgCard);
+    margin: 15px auto;
+    height: auto;
+  }
+}
+@media screen and (min-width: 576px){
+  #tenis{
+    background-color: rgb(0, 47, 255);
+  }
+}
+@media screen and (min-width: 768px){
+  #tenis{
+    background-color: rgb(111, 0, 255);
+  }
+}
+@media screen and (min-width: 998px){
+  #tenis{
+    background-color: rgb(255, 0, 128);
+  }
+}
+@media screen and (min-width: 1280px){
+  #tenis{
+    background-color: rgb(117, 0, 0);
+  }
+}
