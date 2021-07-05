@@ -52,30 +52,31 @@
         </div>
 
         <div id="tenis">
-          <div>
+          <div class="tenis">
             <img src="./assets/img/1.png" alt="Tenis Jordan" >
           </div>
-          <div>
+          <div class="tenis">
             <img src="./assets/img/2.png" alt="Tenis Jordan" >
           </div>
-          <div>
+          <div class="tenis">
             <img src="./assets/img/3.png" alt="Tenis Jordan" >
           </div>
-          <div>
+          <div class="tenis">
             <img src="./assets/img/4.png" alt="Tenis Jordan" >
           </div>
-          <div>
+          <div class="tenis">
             <img src="./assets/img/5.png" alt="Tenis Jordan" >
           </div>
-          <div>
+          <div class="tenis">
             <img src="./assets/img/6.png" alt="Tenis Jordan" >
           </div>
-          <div>
+          <div class="tenis">
             <img src="./assets/img/7.png" alt="Tenis Jordan" >
           </div>
-          <div>
+          <div class="tenis">
             <img src="./assets/img/8.png" alt="Tenis Jordan" >
           </div>
+
         </div>
 
       </section>
@@ -87,6 +88,22 @@
     </footer>
 
   </div><!-- Container -->
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script>
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '50px',
+        duration: 2000,
+        reset: true
+    });
+
+    ScrollReveal().reveal('.tenis', { delay: 200 });
+    ScrollReveal().reveal('.date', { delay: 400 });
+    ScrollReveal().reveal('.title', { delay: 500 });
+    ScrollReveal().reveal('.description', { delay: 600 });
+</script>
 
 </body>
 
