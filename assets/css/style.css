@@ -195,7 +195,7 @@ input:focus {
   background-color: var(--title);
   font-family: Mont-SB;
   text-align: center;
-  line-height: 55px;
+  line-height: 65px;
 }
 
 @media screen and (min-width: 320px){
